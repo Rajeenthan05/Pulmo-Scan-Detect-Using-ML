@@ -22,7 +22,16 @@ from keras.layers import Input, Lambda, Dense, Flatten
 
 # In[4]:
 
+'''
+from keras.layers import Dense, Dropout
 
+# Original Dense layer
+original_layer = Dense(128, activation='relu')
+
+# Modified Dense layer with dropout
+modified_layer = Dense(128, activation='relu')
+dropout_layer = Dropout(0.5)  # 50% dropout rate
+'''
 from keras.models import Model
 from keras.applications.vgg16 import VGG16
 from keras.applications.vgg16 import preprocess_input
