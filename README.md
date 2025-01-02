@@ -1,4 +1,4 @@
-# Chest_x_ray_Detection
+# Pulmo Scan Detection
 ####  assets<br>
 ###### picture.gif<br>
 
